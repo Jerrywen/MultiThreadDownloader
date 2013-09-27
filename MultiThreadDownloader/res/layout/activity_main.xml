@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/path" />
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="http://192.168.1.101:8080/videoNews/music_kwqh.exe"
+        android:id="@+id/path"
+        />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+	    <Button 
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:id="@+id/button"
+	         android:text="@string/button"
+	        />
+		  <Button 
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:id="@+id/stopbutton"
+		   android:text="@string/stopbutton"
+		   android:enabled="false"
+		  />
+	  </LinearLayout>
+    <ProgressBar 
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressbar"
+        />
+    <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/percent"
+         android:gravity="center"
+        />
+
+</LinearLayout>

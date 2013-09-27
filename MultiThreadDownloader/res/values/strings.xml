@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">多线程断点下载器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="path">文件下载路径</string>
+    <string name="button">下载</string>
+    <string name="stopbutton">停止下载</string>
+    <string name="success">下载完成</string>
+    <string name="fail">下载失败</string>
+     <string name="sderror">sd卡不存在或写保护</string>
+
+</resources>
